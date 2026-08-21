@@ -15,6 +15,7 @@ const [color,setColor]=useState("olive")
             <button className="outline-none px-4  rounded-xl py-1 shadow-lg" style={{background:"White"}} onClick={()=>setColor("white")}>White</button>
             <button className="outline-none px-4  rounded-xl py-1 shadow-lg" style={{background:"green"}} onClick={()=>setColor("green")}>Green</button>
             <button className="outline-none px-4  rounded-xl py-1 shadow-lg" style={{background:"pink"}} onClick={()=>setColor("pink")}>Pink</button>
+            <button className="outline-none px-4  rounded-xl py-1 shadow-lg" style={{background:"orange"}} onClick={()=>setColor("orange")}>Orange</button>
           </div>
         </div>
       </div>
